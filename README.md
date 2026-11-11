@@ -3,9 +3,9 @@
 Reinforcement Learning course project — Spring 2026, SJSU
 
 ## Team
-- Yumeng Ren ([student ID removed]) — Environment design and simulation
-- Haoran Jiang ([student ID removed]) — PPO and SAC agent implementation
-- Brian Lam ([student ID removed]) — DQN baseline, heuristic baselines, evaluation and reporting
+- Yumeng Ren — Environment design and simulation
+- Haoran Jiang — PPO and SAC agent implementation
+- Brian Lam — DQN baseline, heuristic baselines, evaluation and reporting
 
 ## What this project is about
 
