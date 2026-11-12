@@ -1,0 +1,60 @@
+# Commit hashes before and after the history rewrite of 2026-11-12
+#
+# Every commit hash changed when this repository's history was rewritten
+# (see 'History note' in README.md). Files under results/ were not modified,
+# so hashes recorded inside them refer to the left column.
+#
+# old_hash new_hash author_date subject
+3e0522e048bd605fe8c97d8a411d50028ee226d8 4144fbb77d4c1a6b2393f4da256588c9f4df9918 2026-03-09T13:27:46-07:00 Initial commit
+de1aa1d625bbaf7e9c48b1af599e005c0a0d2184 2949b5ece63e530fc9b4a1324e7800a1db903f85 2026-03-09T23:09:03-07:00 init: add README, Azure traces, proposal, check-in 1, and project structure
+4d2d4ed8814f9bd351a8f27d027e4221b6a70aff 77d549efd56e50eb1fc11f9ebd7b8173c36db9a8 2026-03-18T22:12:20-07:00 add gitignore
+2a351a20356ef453fb188326979bca003b9d66a0 d6e53edecc1d7cd421869849b41af7e642e11cbd 2026-03-18T22:12:33-07:00 add gymnasium serving environment
+20e237a8dd2c66ebdd476d06d5ba745c686f4f89 b19873c42a3f3e564ea8c75cc6275c0ab9f3e7e1 2026-03-18T22:12:48-07:00 add inference environment variant
+88f7617fbd829b6209f057090dc4197248222283 3b9424a580a515d579f30929cab40888969aa065 2026-03-18T22:13:03-07:00 implement heuristic baselines
+6faaca0df230980d0fd1824e7c6ddcd537b15f6d 6972c041378aa3ec30eb5698dc006ded530beb43 2026-03-18T22:13:14-07:00 add DQN baseline agent
+ed7da0c3fa4d69425dafc62f7de4b6a476feddd5 c9dc26a5b020c55775a985e13b12755606bf1bd2 2026-03-18T22:13:27-07:00 implement PPO agent
+535b42dbac87846857bbd766b8b003f69db030e6 242ef94e845aef9f7c3ee1ae809fd3dec782a3c9 2026-03-18T22:13:40-07:00 implement SAC with continuous-to-discrete wrapper
+071af0be6d5d0dea365625855cf0ad6c8894c3c6 854449f67bf0e73fb0f58b4791d8cf905d9dcab7 2026-03-18T22:13:51-07:00 add bandit exploration strategies
+261238a65b6198b36249d60496a1208dbe8a3bcf 39d74ee7c90d6ded09248e7c191b74b9a89b901d 2026-03-18T22:14:06-07:00 add Azure trace EDA notebook
+3b7fcd8bbcdb5500f3296ad27d1e1d8673abe383 6852ea621ed6201789adf77e2f2d0b9f034815c9 2026-03-18T22:14:18-07:00 add experiment scripts and updated README
+2b4f126b98c3cebb4be3c50ee15a9e3c0e7e5093 d6461c361063ee6ba11b344cda9f82d3969affac 2026-03-18T22:29:19-07:00 add experiment configuration file
+763cae0933ad119a4b9669fb14c75443fd8c27bf 3aa41aa5214ab0c1ed2d1a0581806e950ad303e9 2026-03-18T22:29:32-07:00 add hyperparameter tuning script for PPO and SAC
+d736703634f7a5047c6487f534752f043ff8ed37 18b8b12661b6b3a09f01a2282776e3fe92ab1eb7 2026-03-18T22:29:44-07:00 add results visualization notebook with comparison plots
+1a3107278f5b0a27337adc786645c8427c8aac6c e94ae9db2cf8d0b6e1aa0e03960aeffa560dd614 2026-03-18T22:29:54-07:00 add reward shaping ablation study
+0f93971a0cbd251377e80f946add72edd09e842f d96e4185c912540ffc25b3af7fea6d0ed460f2ae 2026-03-18T22:30:04-07:00 add agent decision visualization over time
+4b41543197992daaf70647a35a1487881b4ebfca b8d0615a875d40ceddf6099c5708a51913edeaac 2026-04-06T01:36:58-07:00 add all experiment results: training curves, multi-seed, reward shaping
+48f06eccb817c0c5f5d5ead26f269e3579884741 529ef6a3bdc568448b78f5c080f1085321bb577c 2026-04-06T01:36:58-07:00 add training curves and multi-seed analysis scripts
+6dc77ce189a655bc010560932a1937d681f03563 f7eba629ac6268a1950516d5a13280a95725eb55 2026-04-06T01:37:58-07:00 add check-in 3 report
+9786163f080dc3ec4f75942ee36aee2d87b5af47 a699df9cc47ece4ddc244760d0c0b159424b05ff 2026-04-06T01:41:28-07:00 add comparison plots and decision visualization
+57f527f6d9f08592df9edd0dfa20dcdee44a2ab1 adb227adc23431f1c86d11afd0718c26e55bcc58 2026-04-06T01:41:28-07:00 add package init files
+4e8cacc2124210dfe52b228600c9ccb9e152c378 d9d9bd0837e23c580fae16eaeef3b4fd2a082bfd 2026-04-06T01:49:12-07:00 add check-in 3 report with references
+b2723971b1afead574c40e593bed662129cd9bab 64a10063308104986c0055031d9dc520547be4a0 2026-04-14T23:46:04-07:00 add hyperparameter tuning experiment: 27 configs across DQN/PPO/SAC
+9d7b6d2b00a3d98c077e610ad1b3717791f2916d 40cb3dd292476f3161c937e5e62d0ccf76635c6b 2026-04-16T14:34:04-07:00 add check-in 4 project report draft
+dd3ee9efa1e8c24f247a3ec43e08d6839640b828 43d17ee1bd0b8a415939f9ef7bf49a0326e840ee 2026-04-17T18:18:12-07:00 add HPC extended training results: 500k steps with tuned hyperparameters
+1ab55c9a7b0706131bf8a5b87d2a95fec0894de8 00c09e49907dea5875ff345d5441cef8cca1b0d6 2026-05-01T21:04:04-07:00 add multi-stage experiment (vllm-omni inspired): PPO beats heuristics by 52% on avg JCT
+2526a94f7dffced3c9f13f1cf4577e09f8e54246 d558adde23b9370610e7995d865769da88a04855 2026-11-11T11:50:39-08:00 remove student IDs from README and drop course PDFs
+57fdb7bb7afdb8df2065a947d44cd40cfcf55015 14b867efdd1b1fe3e521270803daad0014961852 2026-11-11T11:53:23-08:00 archive course-project code under legacy/ and add project skeleton
+1813089f858552d6178c76f5f7ebcff2b1bf63dd 373495fd694d20392980cde43b41f5be7714281c 2026-11-11T12:01:38-08:00 add trace loading with time-based train/dev/test split and slicing
+098ca26bf81d34056abc793d93eb44dfc7875613 27e8b17ba9c9f18f8f79932b64f7e4318cb1f5dd 2026-11-11T12:13:11-08:00 add discrete-event batching simulator with sourced processing-time model
+2a03a056fa3c2e8e09d6c159291653b8e650cef8 5461912a040962da8d248d92c97e81eb316eb0f7 2026-11-11T17:05:18-08:00 add 3-stage pipeline scenario, SLOs, four load levels; extend sweep
+22e14254b56f59540a5e8da1d324000d2bcb113a 0b60b4378a8cfdfdb49354510ba9e67e7087b5f3 2026-11-11T17:11:25-08:00 add threshold and downstream-aware policies and the RL environment
+ee4377f57b52b589a3716409b31eb02e17cecd5d efd0ae9b8651d54036722e0d582df8fdf640ac86 2026-11-11T17:14:01-08:00 add draft pre-registration for the Phase 2 comparison
+93fd71fd7a267db317fa3a301f15414e4cd4c1e0 9f34e5f158d57bd0de83e5ad4d08373b0012a3c6 2026-11-11T22:12:33-08:00 approve pre-registration for the Phase 2 comparison
+230ceabdc6653324fa586724e7cddb2288971693 46ba6ec6de42921b0ffa8b05fb6261d9af7e7141 2026-11-11T22:12:33-08:00 rl_env: optionally start episodes from a random backlog
+14cb9db0f4ca96ae9796a44dd9457da19d356062 512ef9b1c18424f4900802fe102b37e958f59611 2026-11-11T22:18:42-08:00 add baseline grid search, paired block bootstrap and RL training runner
+b65bda3330fcf5f834f008c530ab4bb73481fb54 b5e7c8b1f4943241f9a024fa1cfe2c318e192446 2026-11-11T22:26:32-08:00 tuning stage under the registered reward: policies collapse to always-wait
+2d64a9df5372b8cfd8cc7163a65d2dbda1eac104 e49b1c3023e9866fcc7ab23753b82998c07e40e3 2026-11-11T22:26:41-08:00 ruff: exclude results/ (holds recorded diagnostic scripts)
+0a43f07fc910ee96df07aba1dba5fb3d69ae1aab 2d47bcad5bb498530d099141fff6a43748f7748e 2026-11-11T22:28:58-08:00 pre-registration: record deviations 1 and 2 before any test evaluation
+fa162699d93a024e00a11da687894a244e8ac669 42210f1f9c24f4897bd936f798869acafe79393c 2026-11-11T22:33:09-08:00 re-tune under the rescaled reward; training-sufficiency check passed
+a4ef0715da9785eb0464b8520664fbc8efd15105 fdbfccc9174774bc9f530e39b65754c95257097a 2026-11-11T22:53:23-08:00 primary conditions: 60 training runs, dev selection and memorisation check
+50caa9eaba80120ed6b35c5f356accfafceb5819 3b9479459a585eae6578223916a6ee519fccd192 2026-11-11T22:54:44-08:00 test evaluation of the six primary conditions (run once, from fdbfccc)
+b980ee8e77334fedd13fe9fa1dc7e883412b430a 4f29d16e47524bc27967b226b4544411cd84662a 2026-11-11T23:09:41-08:00 pre-registration: deviation 3, post-hoc exploratory analyses
+39110d76287c7d4794ef35aef129a77c00cfc429 bf6165f3be64608f2a9b7c527d3f2eba8f0bf46f 2026-11-11T23:45:11-08:00 secondary conditions: baseline search, 100 training runs, dev selection; post-hoc analyses for primary conditions
+b10ba08608c14d836592a8a0b12c1541d24b8acb e2f5dfda505508162a023bc9dccb8806699092e3 2026-11-11T23:46:06-08:00 test evaluation of the ten secondary conditions (run once)
+d560183bf027356e5eb2c8edc597916921f73321 9bbf1394e474ac2be428f6adfee021cc7997338d 2026-11-11T23:46:45-08:00 post-hoc per-seed analysis and cost comparison for the secondary conditions
+058580249d96622c7e5ccb8c6a77bd7b6ac79159 9c469879146a4177757da6452c821886a52b6864 2026-11-11T23:59:22-08:00 add ablation scenarios (fixed length 128) and the ablation runner
+80e39d5dda82fbfb0ea638c92617b9bca79dd612 c62d2e8f675023d5416899bdefbb16b8d82f59d6 2026-11-12T09:40:56-08:00 ablations: length-128 baseline search and 40 training runs (train/dev only)
+7ff56b88595650065a94b254228a53a9e6e6ce60 718eb1a3ba83669ec41f96ae3c7d1e66ddc74419 2026-11-12T09:42:06-08:00 ablations: test evaluation (run once)
+c58d75e17e1c31458369fdf53d1d543937f7e927 430be139e1129524047c26309c42cc757bedc19d 2026-11-12T09:43:30-08:00 add REPORT.md generated from results/; README links the result
+1ac31ba4092e3074af61b40dca6c4b67cb43c118 5be9561a0b3421e46a05e8e45172576c000eb183 2026-11-12T10:18:05-08:00 README summary figure, authorship note; REPORT data and sources
+7746d35eac851a48f1ca7565b5fdb2f2d8f41cb5 f79dabf3e1daadd1253a29ed36ec3243eed86cbe 2026-11-12T10:23:48-08:00 post-hoc CPU check of the processing-time model (deviation 4)

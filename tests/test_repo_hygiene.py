@@ -35,10 +35,18 @@ def tracked_text_files() -> list[tuple[str, str]]:
     return files
 
 
+# docs/commit_map.txt starts every data line with two 40-character commit hashes,
+# which can contain nine consecutive digits by chance. Those two columns are
+# removed before scanning; the rest of each line is checked as usual.
+HASH_COLUMNS = re.compile(r"^[0-9a-f]{40} [0-9a-f]{40} ")
+
+
 def find(pattern: re.Pattern[str]) -> list[str]:
     hits = []
     for name, text in tracked_text_files():
         for lineno, line in enumerate(text.splitlines(), start=1):
+            if name == "docs/commit_map.txt":
+                line = HASH_COLUMNS.sub("", line)
             if pattern.search(line):
                 hits.append(f"{name}:{lineno}")
     return hits

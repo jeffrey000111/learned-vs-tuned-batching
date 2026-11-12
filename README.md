@@ -1,5 +1,7 @@
 # Adaptive Batching for ML Inference Serving
 
+[![ci](https://github.com/jeffrey000111/learned-vs-tuned-batching/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jeffrey000111/learned-vs-tuned-batching/actions/workflows/ci.yml)
+
 **Research question:** under real arrival patterns, when does a learned batching
 policy beat a well-tuned heuristic?
 
@@ -201,3 +203,29 @@ team project:
 The rework in this repository (new simulator, baselines, experiments,
 pre-registration, report) was done independently by Haoran Jiang. The
 original team's code is preserved under [legacy/](legacy/).
+
+## History note
+
+This repository was published on 2026-11-12 from an earlier repository named
+`rl-adaptive-batching`, which is now private. Before publishing, its history
+was rewritten with `git filter-repo`:
+
+- The four course check-in reports (PDFs under `docs/`) were removed from
+  every commit because they contained student ID numbers. Three commits
+  only added or changed those PDFs; they are now empty and are kept so that
+  the dates in the history are preserved.
+- Student ID numbers in earlier versions of this README were replaced with
+  `[student ID removed]`.
+- Author and committer e-mail addresses were replaced with a GitHub noreply
+  address.
+- Every commit hash changed; author and commit dates did not. Hashes quoted
+  in commit messages were updated to the corresponding new commits. Files
+  under `results/` were left exactly as they were, so the commit hashes
+  recorded inside them (for example in `results/test/*.json`) are hashes
+  from the earlier repository; [docs/commit_map.txt](docs/commit_map.txt)
+  maps every old hash to its new one.
+- The original push records and CI run records, which show that the
+  pre-registration was committed and pushed before any test evaluation,
+  are kept in the original (now private) repository and can be provided on
+  request.
+
